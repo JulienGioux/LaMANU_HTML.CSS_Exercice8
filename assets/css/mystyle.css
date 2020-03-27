@@ -1,6 +1,7 @@
 
 .head {
     grid-area: hd;
+    text-align: center;
 }
 .today { 
     grid-area: Tday;
@@ -15,14 +16,24 @@
 }
 
 .grid-container {
-  display: grid;  
-  grid-template-areas:
-    "hd hd hd hd hd hd hd hd hd hd hd hd"
-    "Tday Tday Tday Tday dontMiss dontMiss dontMiss dontMiss Hot Hot Hot Hot";
+    display: grid;
+    grid-template-areas:
+        "hd hd hd hd hd hd hd hd hd hd hd hd"
+        "Tday Tday Tday Tday dontMiss dontMiss dontMiss dontMiss Hot Hot Hot Hot";
+    column-gap: 2%;
 }
 
+.grid-container > header > img {
+    width: 100%;
+    height: auto;
+}
+.grid-container > section {
+    max-width: 98%;
+    height: auto;
+}
 .grid-container > section > article > img {
     max-width: 100%;
     height: auto;
 }
+
 
