@@ -27,10 +27,10 @@
     width: 100%;
     height: auto;
 }
-.grid-container > section {
+/* .grid-container > section {
     max-width: 98%;
     height: auto;
-}
+} */
 .grid-container > section > article > img {
     max-width: 100%;
     height: auto;
