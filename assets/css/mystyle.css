@@ -18,22 +18,88 @@
 .grid-container {
     display: grid;
     grid-template-areas:
-        "hd hd hd hd hd hd hd hd hd hd hd hd"
-        "Tday Tday Tday Tday dontMiss dontMiss dontMiss dontMiss Hot Hot Hot Hot";
-    grid-template-columns: 8vw 8vw 8vw 8vw 8vw 8vw 8vw 8vw 8vw 8vw 8vw 8vw;
+        ". . . hd hd hd hd hd hd . . ."
+        ". . . Tday Tday dontMiss dontMiss Hot Hot . . .";
+    grid-template-columns: auto auto auto 16vw 16vw 16vw 16vw 16vw 16vw auto auto auto;
 }
 
 .grid-container > header > img {
     width: 100%;
     height: auto;
 }
-.grid-container > section > article {
+.grid-container > section {
     padding: 5px;
+}
+.grid-container > section > h1 {
+    font: 30px "Roboto Light";
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 30px;
+    line-height: normal;
+    font-family: "Roboto Light";
+    font-size-adjust: none;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-variant-alternates: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-position: normal;
+    font-language-override: normal;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    color: #1c93ee;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.grid-container > section > article > h2 {
+    font: 12px "Roboto Regular";
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #1c93ee;
+    margin-right: 1px;
+    padding: 6px;
+    display: inline-block;
+    box-sizing: border-box;
+    /* margin-top: 9px; */
+    position: relative;
+    left: 0;
+    bottom: 45px;
+}
+.grid-container > section > article > h3 {
+    font: 24px "Lato Regular";
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 24px;
+    line-height: normal;
+    font-family: "Lato Regular";
+    font-size-adjust: none;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-variant-alternates: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-position: normal;
+    font-language-override: normal;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    line-height: 26px;
+    position: relative;
+    left: 0;
+    bottom: 60px;
 }
 
 .grid-container > section > article > img {
     max-width: 100%;
     height: auto;
 }
+
+
 
 
