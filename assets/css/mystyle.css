@@ -20,11 +20,11 @@
     grid-template-areas:
         ". . . hd hd hd hd hd hd . . ."
         ". . . Tday Tday dontMiss dontMiss Hot Hot . . .";
-    grid-template-columns: auto auto auto 16vw 16vw 16vw 16vw 16vw 16vw auto auto auto;
+    grid-template-columns: auto auto auto 11vw 11vw 11vw 11vw 11vw 11vw auto auto auto;
 }
 
 .grid-container > header > img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 .grid-container > section {
