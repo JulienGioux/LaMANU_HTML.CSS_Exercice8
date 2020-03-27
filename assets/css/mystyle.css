@@ -20,17 +20,17 @@
     grid-template-areas:
         "hd hd hd hd hd hd hd hd hd hd hd hd"
         "Tday Tday Tday Tday dontMiss dontMiss dontMiss dontMiss Hot Hot Hot Hot";
-    column-gap: 2%;
+    grid-template-columns: 8vw 8vw 8vw 8vw 8vw 8vw 8vw 8vw 8vw 8vw 8vw 8vw;
 }
 
 .grid-container > header > img {
     width: 100%;
     height: auto;
 }
-/* .grid-container > section {
-    max-width: 98%;
-    height: auto;
-} */
+.grid-container > section > article {
+    padding: 5px;
+}
+
 .grid-container > section > article > img {
     max-width: 100%;
     height: auto;
