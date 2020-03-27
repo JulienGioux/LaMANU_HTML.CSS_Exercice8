@@ -1,0 +1,39 @@
+
+.head {
+    grid-area: hd;
+    /* box-sizing: border-box; */
+    /* align-content: center; */
+    width: 100%;
+}
+.today { 
+    grid-area: Tday;
+    /* box-sizing: border-box; */
+    width: 100%;
+}
+.dontmiss {
+    grid-area: dontMiss;
+    /* box-sizing: border-box; */
+    width: 100%;
+}
+.hot {
+    grid-area: Hot;
+    /* box-sizing: border-box; */
+    width: 100%;
+
+}
+
+.grid-container {
+  display: grid;  
+  grid-template-areas:
+    "hd hd hd hd hd hd hd hd hd hd hd hd"
+    "Tday Tday Tday Tday dontMiss dontMiss dontMiss dontMiss Hot Hot Hot Hot";
+  /* box-sizing: border-box; */
+  /* column-gap: 10px; */
+}
+
+.grid-container > section > article > img {
+    /* box-sizing: inherit; */
+    max-width: 100%;
+    height: auto;
+}
+
