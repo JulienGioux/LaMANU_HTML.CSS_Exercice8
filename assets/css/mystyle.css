@@ -32,24 +32,7 @@
 }
 .grid-container > section > h1 {
     font: 30px "Roboto Light";
-    font-style: normal;
-    font-variant-caps: normal;
-    font-weight: normal;
-    font-stretch: normal;
     font-size: 30px;
-    line-height: normal;
-    font-family: "Roboto Light";
-    font-size-adjust: none;
-    font-kerning: auto;
-    font-optical-sizing: auto;
-    font-variant-alternates: normal;
-    font-variant-east-asian: normal;
-    font-variant-ligatures: normal;
-    font-variant-numeric: normal;
-    font-variant-position: normal;
-    font-language-override: normal;
-    font-feature-settings: normal;
-    font-variation-settings: normal;
     color: #1c93ee;
     text-transform: uppercase;
     margin-bottom: 15px;
@@ -64,31 +47,13 @@
     padding: 6px;
     display: inline-block;
     box-sizing: border-box;
-    /* margin-top: 9px; */
     position: relative;
     left: 0;
     bottom: 45px;
 }
 .grid-container > section > article > h3 {
     font: 24px "Lato Regular";
-    font-style: normal;
-    font-variant-caps: normal;
-    font-weight: normal;
-    font-stretch: normal;
     font-size: 24px;
-    line-height: normal;
-    font-family: "Lato Regular";
-    font-size-adjust: none;
-    font-kerning: auto;
-    font-optical-sizing: auto;
-    font-variant-alternates: normal;
-    font-variant-east-asian: normal;
-    font-variant-ligatures: normal;
-    font-variant-numeric: normal;
-    font-variant-position: normal;
-    font-language-override: normal;
-    font-feature-settings: normal;
-    font-variation-settings: normal;
     line-height: 26px;
     position: relative;
     left: 0;
