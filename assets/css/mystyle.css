@@ -35,36 +35,55 @@
     font-size: 30px;
     color: #1c93ee;
     text-transform: uppercase;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
-.grid-container > section > article > h2 {
+.grid-container > section > article > div > h2 {
     font: 12px "Roboto Regular";
     text-transform: uppercase;
     color: #fff;
-    background-color: #1c93ee;
     margin-right: 1px;
-    padding: 6px;
+    padding: 3px;
     display: inline-block;
     box-sizing: border-box;
-    position: relative;
-    left: 0;
-    bottom: 45px;
+    margin-top: 0;
+    margin-bottom: 1rem;   
 }
-.grid-container > section > article > h3 {
+.grid-container > section > article > div > h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
     font: 24px "Lato Regular";
     font-size: 24px;
     line-height: 26px;
-    position: relative;
-    left: 0;
-    bottom: 60px;
+}
+
+.grid-container > section > article > div > h4 {
+    font-family: Verdana,Tahoma,"DejaVu Sans",sans-serif;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.grid-container > section > article > div > p {
+    font : 16px "Roboto Regular";
 }
 
 .grid-container > section > article > img {
     max-width: 100%;
     height: auto;
 }
-
-
+.posarticle {
+    position: relative;
+    left: 0;
+    bottom: 30px;
+}
+hr {
+    color: lightgrey;
+}
+.backpink{
+    background-color: #c12051;
+}
+.backblue {
+    background-color: #1c93ee;    
+}
 
 
